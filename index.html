@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Bouquet Builder Game</title>
     <!-- bootstrap link -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 
     <!-- fonts link -->
 
     <!-- local css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<div class="row">
+<div class="hero-image">
+
+<div class="main-container">
+<!-- <div class="row"> -->
     <div class="data-title">Flowers Used:</div>
         <div class="data-num"> <span id="clickCounter">0</span> out of 10</div>
 
@@ -22,31 +27,41 @@
 
     <div class="data-title">Flower Amount:</div>
         <div class="data-num" id="winScore">48</div>
-</div>
+<!-- </div> -->
 
-
-<div class="row">
+<div class="buttons">
+<!-- <div class="row"> -->
+    <!-- <div class="btn-group-vertical"> -->
     <button class="vectorBtn" id="redBtn" value="1">
-        <img src="assets/images/red.png" alt="Red Flower">
+        <img src="assets/images/red.png" id="imgBtn" alt="Red Flower">
     </button>
-    <button class="vectorBtn" id="whiteBtn" value="">
-        <img src="assets/images/white.png" alt="White Flower">
+    <button class="vectorBtn" id="lightPinkBtn" value="">
+        <img src="assets/images/light pink.png" id="imgBtn" alt="Light Pink Flower">
     </button>
     <button class="vectorBtn" id="pinkBtn" value="">
-        <img src="assets/images/pink.png" alt="Pink Flower">
+        <img src="assets/images/pink.png" id="imgBtn" alt="Pink Flower">
     </button>
     <button class="vectorBtn" id="purpleBtn" value="">
-        <img src="assets/images/purple.png" alt="Purple Flower">
+        <img src="assets/images/purple.png" id="imgBtn" alt="Purple Flower">
     </button>
 </div>
+    <!-- </div> -->
+<!-- </div> -->
 
-<div class="row">
+
+<!-- <div class="row"> -->
     <div class="data-title">Wins:</div>
         <div class="data-num" id="wins">0</div>
     <div class="data-title">Losses:</div>
         <div class="data-num" id="losses"></div>
+<!-- </div> -->
 </div>
 
+<!-- optional JS bootstrap links -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+  
 <!-- Query and JavaScript links  -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="assets/javascript/game.js"></script>

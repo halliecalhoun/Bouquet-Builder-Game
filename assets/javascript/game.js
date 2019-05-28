@@ -25,7 +25,7 @@ function resetGame() {
     clickCounter = 0;
     winScore = Math.floor(Math.random() * 21) + 30;
     var btnVals = Math.floor(Math.random() * 9) + 2;
-    $("#whiteBtn").attr("value", btnVals.toString());
+    $("#lightPinkBtn").attr("value", btnVals.toString());
     btnVals = Math.floor(Math.random() * 9) + 2;
     $("#pinkBtn").attr("value", btnVals.toString());
     btnVals = Math.floor(Math.random() * 9) + 2;

@@ -1,0 +1,54 @@
+body {
+    margin: 0 auto;
+
+}
+
+.hero-image {
+    background-image: url("../images/bg/flower-2108645_1920.jpg");
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    /* margin: 0 auto; */
+}
+
+.main-container {
+    text-align: center;
+    /* margin: 0 auto;
+    width: 75%;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    left: 50%; */
+}
+
+.buttons {
+    /* margin-left: 25%; */
+    /* width: 100%;
+    left: 25px;
+    right: 25px; */
+}
+
+#imgBtn {
+    width: 145px;
+    padding: 5px;
+}
+.vectorBtn {
+    margin: auto;
+    border-radius: 8px;
+    background-color: white;
+    border: white;
+    border-style: solid;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /* display: inline-block; */
+    margin: 4px 5px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#redBtn {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
