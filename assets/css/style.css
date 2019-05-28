@@ -31,6 +31,15 @@ body {
     -webkit-column-count: 5; /* Chrome, Safari, Opera */
     -moz-column-count: 5; /* Firefox */
     column-count: 5;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+  -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+  -moz-column-rule-style: solid; /* Firefox */
+  column-rule-style: solid;
+  -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+  -moz-column-rule-width: 1px; /* Firefox */
+  column-rule-width: 1px;
     color: white;
     padding: 0px 100px 80px 100px;
     margin: 0 auto;
