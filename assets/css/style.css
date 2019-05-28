@@ -4,18 +4,21 @@ body {
 }
 
 .hero-image {
-    background-image: url("../images/bg/flower-2108645_1920.jpg");
+    background-image: url("../images/bg/flowers-3956074_1920.jpg");
     position: fixed;
     background-size: cover;
     background-position: center;
-    bottom: 0;
+    top: 0;
     min-width: 100%; 
     min-height: 100%;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 .main-container {
     text-align: center;
+    padding: 200px;
+    background: rgba(0, 0, 0, 0.301);
+    top: 25%;
     /* margin: 0 auto;
     width: 75%;
     align-content: center;
@@ -23,6 +26,15 @@ body {
     align-items: center;
     left: 50%; */
 }
+
+.text-content {
+    -webkit-column-count: 5; /* Chrome, Safari, Opera */
+    -moz-column-count: 5; /* Firefox */
+    column-count: 5;
+    color: white;
+    padding: 0px 100px 80px 100px;
+    margin: 0 auto;
+  }
 
 .buttons {
     /* margin-left: 25%; */
