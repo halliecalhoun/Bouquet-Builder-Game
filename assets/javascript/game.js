@@ -42,15 +42,14 @@ function updateDisplay() {
 }
 
 // function for checking if they win or lose
-function userWinOrLose() {
-    if(userScore === winScore) {
+function userWinOrLose(){
+    if(userScore === winScore){
         wins++;
-        restartGame();
+        resetGame();
         updateDisplay();
-    }
-    else if(userScore > winScore || clickCounter > 10) {
+    } else if(userScore > winScore || clickCounter > 10){
         losses++;
-        restartGame();
+        resetGame();
         updateDisplay();
     }
 }
