@@ -16,9 +16,11 @@ body {
 
 .main-container {
     text-align: center;
-    padding: 200px;
+    /* padding: 8px; */
     background: rgba(0, 0, 0, 0.301);
+    background-size: cover;
     top: 25%;
+    padding: 0px 100px 15px 100px;
     /* margin: 0 auto;
     width: 75%;
     align-content: center;
@@ -27,21 +29,49 @@ body {
     left: 50%; */
 }
 
+h1 {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 65px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    /* font-family: 'Amarante', cursive; */
+    /* font-family: 'Shadows Into Light Two', cursive; */
+    font-family: 'Unica One', cursive;
+    margin-bottom: 0px;
+    /* text-transform: uppercase; */
+    color: white;
+    font-size: 32px;
+}
+
+h3 {
+    font-family: 'Shadows Into Light Two', cursive;
+    color: white;
+    font-size: 32px;
+}
+
 .text-content {
+    color: white;
+    font-family: 'Unica One', cursive;
+    font-size: 24px;
+    font-weight: 600;
+    /* font-family: 'Shadows Into Light Two', cursive; */
     -webkit-column-count: 5; /* Chrome, Safari, Opera */
     -moz-column-count: 5; /* Firefox */
     column-count: 5;
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-  -moz-column-gap: 40px; /* Firefox */
-  column-gap: 40px;
-  -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
-  -moz-column-rule-style: solid; /* Firefox */
-  column-rule-style: solid;
-  -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
-  -moz-column-rule-width: 1px; /* Firefox */
-  column-rule-width: 1px;
+    -webkit-column-gap: 5px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 5px; /* Firefox */
+    column-gap: 5px;
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+    -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 1px; /* Firefox */
+    column-rule-width: 1px;
     color: white;
-    padding: 0px 100px 80px 100px;
+    padding: 0px 100px 15px 100px;
     margin: 0 auto;
   }
 
