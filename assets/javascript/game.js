@@ -26,14 +26,24 @@ function resetGame() {
 
 // function for updating elements in HTML to display
 function updateDisplay() {
-    
+
 }
 
 // function for checking if they win or lose
+function userWinOrLose() {
+
+}
 
 // start the game on refresh/restart 
+resetGame();
+
+// start the game on updated display
+updateDisplay();
 
 // function for making sure document is ready
+$(document).ready(function(){
+    // add the event click listener
 
-// add the event click listener
+});
+
 
