@@ -18,12 +18,12 @@ var wins = 0;
 var losses = 0;
 var userScore = 0;
 var winScore = 0;
-var clickCounter = 0;
+var flowersUsed = 0;
 
 // function for starting new game
 function resetGame() {
     userScore = 0;
-    clickCounter = 0;
+    flowersUsed = 0;
     winScore = Math.floor(Math.random() * 21) + 30;
     var btnVals = Math.floor(Math.random() * 9) + 2;
     $("#lightPinkBtn").attr("value", btnVals.toString());
@@ -35,11 +35,11 @@ function resetGame() {
 
 // function for updating elements in HTML to display
 function updateDisplay() {
-    $("#clickCounter").text(clickCounter);
     $("#userScore").text(userScore);
     $("#winScore").text(winScore);
     $("#wins").text(wins);
     $("#losses").text(losses);
+    $("#flowersUsed").text(flowersUsed);
 }
 
 // function for checking if they win or lose
@@ -48,24 +48,22 @@ function userWinOrLose(){
         wins++;
         resetGame();
         updateDisplay();
-    } else if(userScore > winScore || clickCounter > 12){
+    } else if(userScore > winScore || flowersUsed > 12){
         losses++;
         resetGame();
         updateDisplay();
     }
 }
 
-// start the game on refresh/restart 
+// start the game on refresh/restart and make sure it updates the display
 resetGame();
-
-// start the game on updated display
 updateDisplay();
 
 // function for making sure document is ready
 $(document).ready(function(){
     // add the event click listener
     $(".vectorBtn").on("click", function(){
-        clickCounter++;
+        flowersUsed++;
         userScore += parseInt(this.value);
         updateDisplay();
         userWinOrLose();
