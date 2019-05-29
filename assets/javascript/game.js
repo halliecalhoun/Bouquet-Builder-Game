@@ -4,6 +4,7 @@
         // add that buttons specific amount of points to the user's total score
         // each button has a random hidden value between 1 - 12
         // when button is clicked, update the score counter
+        // add score click counter with a limit so that user cannot spam 1 to acheive winning num
     // if user score = winning score (randumly generated num), then
         // wins ++
         // restart game
@@ -47,7 +48,7 @@ function userWinOrLose(){
         wins++;
         resetGame();
         updateDisplay();
-    } else if(userScore > winScore || clickCounter > 10){
+    } else if(userScore > winScore || clickCounter > 12){
         losses++;
         resetGame();
         updateDisplay();
