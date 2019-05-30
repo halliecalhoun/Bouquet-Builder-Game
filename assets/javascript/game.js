@@ -12,7 +12,6 @@
         // losses ++
         // restart game
 
-
 // declare the global variables
 var wins = 0;
 var losses = 0;
