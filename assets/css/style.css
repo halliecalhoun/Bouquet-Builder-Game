@@ -14,7 +14,7 @@ body {
 }
 
 #overlay {
-    background: rgba(0, 0, 0, 0.301);
+    background: rgba(0, 0, 0, 0.377);
     background-size: cover;
     position: fixed;
     top: 0;
@@ -39,11 +39,11 @@ body {
     color: white;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
-    padding: 25px;
+    padding: 15px;
     text-align: center;
-    width: 75%;
+    width: 65%;
     height: 100%;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 
 h1 {
@@ -54,27 +54,32 @@ h1 {
 }
 
 h2 {
-    /* font-family: 'Amarante', cursive; */
-    /* font-family: 'Shadows Into Light Two', cursive; */
-    font-family: 'Unica One', cursive;
+    font-family: 'Salsa', cursive;
+    font-weight: 500;
     margin-bottom: 0px;
-    /* text-transform: uppercase; */
     color: white;
     font-size: 32px;
 }
 
 h3 {
-    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Salsa', cursive;
     color: white;
     font-size: 32px;
+    margin-top: 0px;
+}
+
+p {
+    font-family: 'Salsa', cursive;
+    color: white;
+    font-size: 23px;
+    margin-bottom: 0;
 }
 
 .text-content {
+    margin-top: 30px;
     color: white;
-    font-family: 'Unica One', cursive;
+    font-family: 'Salsa', cursive;
     font-size: 28px;
-    font-weight: 600;
-    /* font-family: 'Shadows Into Light Two', cursive; */
     -webkit-column-count: 5; /* Chrome, Safari, Opera */
     -moz-column-count: 5; /* Firefox */
     column-count: 5;
@@ -88,12 +93,13 @@ h3 {
     -moz-column-rule-width: 1px; /* Firefox */
     column-rule-width: 1px;
     color: white;
-    padding: 15px;
-    margin: 0 auto;
+    padding: 5px;
+    /* margin: 0 auto; */
   }
 
 .buttons {
     margin-top: 20px;
+    margin-bottom: 35px;
 }
 
 #imgBtn {
@@ -117,8 +123,3 @@ h3 {
 .vectorBtn:hover{
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.4), 0 3px 15px 0 rgba(0,0,0,0.30);
 }
-
-
-/* #redBtn {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-} */
