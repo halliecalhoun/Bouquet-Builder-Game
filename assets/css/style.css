@@ -43,7 +43,7 @@ body {
     text-align: center;
     width: 60%;
     height: 100%;
-    margin-top: 5px;
+    margin-top: 10px;
     /* background-color: white; */
 }
 
@@ -51,7 +51,7 @@ h1 {
     font-family: 'Lobster', cursive;
     color: white;
     font-size: 65px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 
 h2 {
@@ -114,23 +114,23 @@ p {
   }
 
 .buttons {
-    margin-top: 20px;
-    margin-bottom: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #imgBtn {
-    width: 145px;
+    width: 155px;
     padding: 5px;
 }
 
 .vectorBtn {
     margin: auto;
-    border-radius: 8px;
-    background-color: white;
+    border-radius: 10px;
+    background-color: #dddddd;
     border: white;
     border-style: solid;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    margin: 10px;
+    margin: 5px 8px 5px 8px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -138,4 +138,30 @@ p {
 
 .vectorBtn:hover{
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.4), 0 3px 15px 0 rgba(0,0,0,0.30);
+    opacity: .75;
+}
+
+#redBtn:hover {
+    border-radius: 8px;
+    border: rgb(233, 38, 38);
+    border-style: solid;
+    
+}
+
+#lightPinkBtn:hover {
+    border-radius: 8px;
+    border: rgb(233, 137, 182);
+    border-style: solid;
+}
+
+#pinkBtn:hover {
+    border-radius: 8px;
+    border: palevioletred;
+    border-style: solid;
+}
+
+#purpleBtn:hover {
+    border-radius: 8px;
+    border: rgb(118, 24, 226);
+    border-style: solid;
 }

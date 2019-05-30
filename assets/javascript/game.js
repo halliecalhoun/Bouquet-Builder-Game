@@ -33,7 +33,7 @@ function resetGame() {
 }
 
 // function for updating elements in HTML to display
-function updateDisplay() {
+function updateHTML() {
     $("#userScore").text(userScore);
     $("#winScore").text(winScore);
     $("#wins").text(wins);
@@ -46,17 +46,17 @@ function userWinOrLose(){
     if(userScore === winScore){
         wins++;
         resetGame();
-        updateDisplay();
+        updateHTML();
     } else if(userScore > winScore || flowersUsed > 12){
         losses++;
         resetGame();
-        updateDisplay();
+        updateHTML();
     }
 }
 
 // start the game on refresh/restart and make sure it updates the display
 resetGame();
-updateDisplay();
+updateHTML();
 
 // function for making sure document is ready
 $(document).ready(function(){
@@ -64,7 +64,7 @@ $(document).ready(function(){
     $(".vectorBtn").on("click", function(){
         flowersUsed++;
         userScore += parseInt(this.value);
-        updateDisplay();
+        updateHTML();
         userWinOrLose();
     });
 })
